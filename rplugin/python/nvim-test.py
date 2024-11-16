@@ -7,4 +7,5 @@ class TestPlugin:
 
     @pynvim.function("TestFunction", sync=True)
     def testFunction(self, args):
-        self.nvim.current.line = "Hello, world!"
+        #self.nvim.current.line = "Hello, world!"
+        return 3
